@@ -1,0 +1,37 @@
+#body{
+    background-color:#F6F6F6;
+}
+
+#profile-wrapper{
+        text-align: center;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-media ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#media-icon{
+    width: 20px;
+    height: 20px;
+}
+
+/* Remove blue color from anchor tags */
+ul a {
+    color: inherit; /* Inherits color from its parent */
+    text-decoration: none; /* Removes underline by default */
+}
+
+/* Optionally, you can style the link when it's hovered or active */
+a:hover {
+    color: skyblue; /* Change the color when hovered */
+}
+
+a:active {
+    color: skyblue; /* Change the color when clicked/active */
+}

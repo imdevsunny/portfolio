@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <title>Sunny | Portfolio</title>
+    <link rel="stylesheet" type='text/css' href="{% static 'style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body id="body">
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-md-3">
+                <div class="card card-body h-100" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'profile.png'%}" alt="profile-pic">
+                    <hr>
+                    <h4>Hi, I'm Sunny!</h4>
+                    <p>I am Full Stack Developer,  I love turning ideas into reality through code and collaborate with others.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h4>My Journey as a Software Developer</h4>
+                    <hr>
+                    <p>
+                        In my journey as a developer, I've had the opportunity to work with a diverse set of technologies, enabling me to create robust and scalable applications. My expertise includes:
+                        
+                    </p>
+                    <p> HTML5, CSS3, JavaScript
+                        - React.js, Bootstrap
+                        - Node.js, Express.js
+                        - Python, Django, Django Rest Framework
+                        - RESTful APIs,
+                        - SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB)
+                        - Git version control
+                        - Responsive design and cross-browser compatibility
+                        - Continuous integration and deployment (CI/CD)
+                        - Containerization with Docker
+                        - Familiarity with cloud platforms such as AWS and Heroku
+</p>
+                    <hr>
+                    <p>Feel free to connect with me on social media.</p>
+                    <ul class="social-media mx-0">
+                        <a href="https://www.linkedin.com/in/sunny-132943240/"><i id='media-icon'class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/imdevsunny"><i id='media-icon'class="fa-brands fa-github"></i></a>
+                        <a href="mailto:imdevsunny@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <i id='media-icon' class="fas fa-envelope"></i>
+                        </a>
+                        
+                        <a href="https://x.com/imdevsunny?t=3XuZVmlnUtBXz8Pa1yD1fg&s=09"><i id='media-icon'class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@OutlierCoder"><i id='media-icon'class="fa-brands fa-youtube"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>My Experience as a Developer</h4>
+                    <hr>
+                    <p>Associate Developer at ChicMic</p>
+                    <p>Designed, Built and managed a game backend as sole developer. Built backend features of Pharmacy Website (LocumBay) and Health Website (CancerLight).</p>                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>What I Know</h4>
+                    <hr>
+                    <p>Python, Django, Django Rest Framwork, HTML/CSS, JavaScript/JQuery, React, Postgres, AWS and API's, Langchain, Beutifulsoup, NumPy, Pandas and whole bunch more I can't possibly mention in one sentence! :)</p>
+                    <p>PS: Working on ReactJs, NodeJs</p>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>How I Learn</h4>
+                    <hr>
+                    <p>Reverse Engineer & Build Ugly Prototypes First</p>
+                    <p>I can learn just about anything by having a final product to ear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>My Short Term Goals</h4>
+                    <hr>
+                    <p>After almost one year of experience as Software Developer. I am ready to learn something new.</p>
+                    <p>Aside from building small projects I would love to enter a position where I can be part of bigger team & learn from others with more experience then myself.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer>
+        &copy; 2023 @imdevsunny. All rights reserved.
+    </footer>
+  </body>
+</html>
